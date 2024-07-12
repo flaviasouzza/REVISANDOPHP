@@ -76,6 +76,20 @@ Exemplo: git clone https://<SEU_TOKEN>@github.com/flaviasouzza/REVISANDOPHP.git
 11. Depois de testarmos vamos subir o código para nosso pro git.
     Abra o terminal do seu linux
 
-    - git add .
-    - git commit -m "Hello World acrescento"
+    - git add .  (serve para add as mudanças ao indice)
+    - git commit -m "Hello World acrescento"  (Fazer o commit da mudança)
+    - git push origin main (enviar mudança pro repositorio remoto)
+
+    (Subimos o arquivo Hello World, se fosse entrar no github e atualizar veremos o mesmo inserido lá)
+
+    Porém:
+    Tenho um outro arquivo na pasta que é este (README.md), nós abrimos ele no VS, e queremos subir as mudanças pro GITHUB também, teremos que seguir o passo a passo abaixo:
+    
+    - git add READDME.MD (Observação: escreva o nome do arquivo exatamente como está escrito na pasta)
+    - git commit -m "Alterando README.md"
     - git push origin main
+
+
+Obs: antes de dar um git push, você pode colocar GIT BRANCH para verificar se está na branch correta antes de enviar a mudança para o repositorio.
+
+Considerações: fizemos dessa forma apenas para aprendizado, mais nunca NUNCA ALTERA NADA NA MAIN OU MASTER
