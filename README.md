@@ -65,7 +65,7 @@ Exemplo: git clone https://<SEU_TOKEN>@github.com/flaviasouzza/REVISANDOPHP.git
 	Execute no terminal: 
     sudo cp -R /home/SEU_USUARIO_DO_PC/NOME_PROJETO/* /var/www/html/
 
-    Exemplo: cp -R /home/flavia/REVISANDOPHP/* / var/www/html 
+    Exemplo: cp -R /home/flavia/REVISANDOPHP/* /var/www/html 
 
 9. Acesse o link: http://localhost/hello.php
 	
